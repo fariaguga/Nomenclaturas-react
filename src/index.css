@@ -1,13 +1,64 @@
+/* Define uma fonte padrão */
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Open Sans', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Define uma cor de fundo para a página inteira */
+body {
+  background-color: #f8f8f8;
+}
+
+/* Estilo para o título */
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #333;
+}
+
+/* Estilo para a tabela */
+table {
+  width: 100%;
+  margin-bottom: 2rem;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para as células de cabeçalho da tabela */
+th {
+  font-weight: 700;
+  text-align: left;
+  padding: 1rem;
+  background-color: #eee;
+}
+
+/* Estilo para as células de dados da tabela */
+td {
+  padding: 1rem;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Estilo para as células de dados da última coluna */
+td:last-child {
+  text-align: center;
+}
+
+/* Estilo para as células de dados da última coluna quando o valor é "running" */
+td:last-child span {
+  color: green;
+  font-weight: 700;
+}
+
+/* Estilo para as células de dados da última coluna quando o valor é "stopped" */
+td:last-child span.stopped {
+  color: red;
+  font-weight: 700;
+}
+
+/* Estilo para as células de dados da última coluna quando o valor é "terminated" */
+td:last-child span.terminated {
+  color: gray;
+  font-weight: 700;
 }
