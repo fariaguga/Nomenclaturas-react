@@ -1,0 +1,31 @@
+input, select {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url('data:image/svg+xml;utf8,<svg fill="#777" viewBox="0 0 10 5" xmlns="http://www.w3.org/2000/svg"><polygon points="5,0 0,5 10,5" /></svg>');
+    background-repeat: no-repeat;
+    background-position-x: calc(100% - 12px);
+    background-position-y: center;
+  }
+  
+  button {
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px;
+    background-color: #0077cc;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #005fa3;
+  }
+  
