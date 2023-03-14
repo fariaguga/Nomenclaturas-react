@@ -12,9 +12,11 @@ function Navbar() {
         <li>
           <Link to="/databases">Databases</Link>
         </li>
+        { /*
         <li>
           <Link to="/hour_control">Control Panel</Link>
         </li>
+        */ }
       </ul>
     </nav>
   );

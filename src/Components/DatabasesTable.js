@@ -60,7 +60,7 @@ function DatabasesTable(props) {
                 <th>Engine</th>
                 <th>Version</th>
                 { /* <th>Size</th> */ }
-                <th>Maintanence</th>
+                { /* <th>Maintanence</th> */ }
                 <th>Armazenamento</th>
               </tr>
             </thead>
@@ -71,7 +71,7 @@ function DatabasesTable(props) {
               <td>{database.engine}</td>
               <td>{database.engine_version}</td>
               { /* <td>{database.size}</td> */ }
-              <td>{database.maintanence}</td>
+              { /* <td>{database.maintanence}</td> */ }
               <td>{database.storage} GiB</td>
                 </tr>
               ))}
